@@ -1,0 +1,104 @@
+html,body{
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+#navlist{
+    list-style-type: none;
+    margin: 0vh -1vw;
+    padding: 0;
+    background-color: rgb(255, 127, 80);
+    border-bottom: 3px;
+    border-bottom-color: black;
+}
+#navitem{
+    display: inline-table;
+    padding: 2vh 1.5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#navitem:hover {
+    background-color: #555;
+    color: white;
+}
+a:active {
+    background-color: hotpink;
+} 
+#countries{
+    margin-top: auto;
+    background-color: rgb(255, 127, 80);
+    height: 100vh;
+    width: 27vw;
+    margin-left: -1vw;
+    float: left;
+}
+#msgbox{
+    margin-left: 26vw;
+    height: 80vh;
+    width: 80vw;
+    background-color: lightgrey;
+    float: inherit;
+}
+#textarea{
+    float: inherit;
+    background-color: silver;
+    margin-left: 26vw;
+    width: 80vw;
+    height: 20vh;
+}
+textarea[name=message]{
+    float: inherit;
+    background-color: papayawhip;
+    height: 7.5vh;
+    margin-top: 1.5vh;
+    margin-left: 2vh;
+    width: 58vw;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: silver;
+    padding: 0.5vw 0.5vh;
+    font-family: tahoma;
+    font-size: 1vw;
+    resize: none;
+}
+textarea[name=message]:focus{
+    border-width: 3px;
+    border-color: rgb(255, 127, 80);
+}
+input[name=veb]{
+    margin-left: 60.5vw;
+    margin-top: -9.8vh;
+    float: left;
+}
+#chktxt{
+    float: left;
+    margin-left: 61.8vw;
+    margin-top: -10.3vh;
+    font-family: sans-serif;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+#sndmsg{
+    width: 11.8vw;
+    height: 6vh;
+    background-color: lawngreen;
+    float: left;
+    margin-left: 60.5vw;
+    margin-top: -6.5vh;
+    border: 2px solid;
+    border-color: forestgreen;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: darkslategray;
+}
+#sndmsg:hover{
+    background-color: deepskyblue;
+    color: black;
+    border-color: steelblue;
+}
